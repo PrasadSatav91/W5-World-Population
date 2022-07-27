@@ -1,0 +1,2755 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='W5 Population by country+' inline='true' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='W5 Population by country' name='textscan.1wwfize11rubx917i6o1j0gs22fw'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/212556812/Downloads/TWB/W5 Population by country.csv' dataRefreshTime='' directory='C:/Users/212556812/Downloads/TWB' filename='C:/Users/212556~1/AppData/Local/Temp/TableauTemp/0zqbtti1h01u4s12haq1a00e7him/W5 Population by country.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960 (W5 GDP by country.csv)]' />
+            <value name='[1961 (W5 GDP by country.csv)]' />
+            <value name='[1962 (W5 GDP by country.csv)]' />
+            <value name='[1963 (W5 GDP by country.csv)]' />
+            <value name='[1964 (W5 GDP by country.csv)]' />
+            <value name='[1965 (W5 GDP by country.csv)]' />
+            <value name='[1966 (W5 GDP by country.csv)]' />
+            <value name='[1967 (W5 GDP by country.csv)]' />
+            <value name='[1968 (W5 GDP by country.csv)]' />
+            <value name='[1969 (W5 GDP by country.csv)]' />
+            <value name='[1970 (W5 GDP by country.csv)]' />
+            <value name='[1971 (W5 GDP by country.csv)]' />
+            <value name='[1972 (W5 GDP by country.csv)]' />
+            <value name='[1973 (W5 GDP by country.csv)]' />
+            <value name='[1974 (W5 GDP by country.csv)]' />
+            <value name='[1975 (W5 GDP by country.csv)]' />
+            <value name='[1976 (W5 GDP by country.csv)]' />
+            <value name='[1977 (W5 GDP by country.csv)]' />
+            <value name='[1978 (W5 GDP by country.csv)]' />
+            <value name='[1979 (W5 GDP by country.csv)]' />
+            <value name='[1980 (W5 GDP by country.csv)]' />
+            <value name='[1981 (W5 GDP by country.csv)]' />
+            <value name='[1982 (W5 GDP by country.csv)]' />
+            <value name='[1983 (W5 GDP by country.csv)]' />
+            <value name='[1984 (W5 GDP by country.csv)]' />
+            <value name='[1985 (W5 GDP by country.csv)]' />
+            <value name='[1986 (W5 GDP by country.csv)]' />
+            <value name='[1987 (W5 GDP by country.csv)]' />
+            <value name='[1988 (W5 GDP by country.csv)]' />
+            <value name='[1989 (W5 GDP by country.csv)]' />
+            <value name='[1990 (W5 GDP by country.csv)]' />
+            <value name='[1991 (W5 GDP by country.csv)]' />
+            <value name='[1992 (W5 GDP by country.csv)]' />
+            <value name='[1993 (W5 GDP by country.csv)]' />
+            <value name='[1994 (W5 GDP by country.csv)]' />
+            <value name='[1995 (W5 GDP by country.csv)]' />
+            <value name='[1996 (W5 GDP by country.csv)]' />
+            <value name='[1997 (W5 GDP by country.csv)]' />
+            <value name='[1998 (W5 GDP by country.csv)]' />
+            <value name='[1999 (W5 GDP by country.csv)]' />
+            <value name='[2000 (W5 GDP by country.csv)]' />
+            <value name='[2001 (W5 GDP by country.csv)]' />
+            <value name='[2002 (W5 GDP by country.csv)]' />
+            <value name='[2003 (W5 GDP by country.csv)]' />
+            <value name='[2004 (W5 GDP by country.csv)]' />
+            <value name='[2005 (W5 GDP by country.csv)]' />
+            <value name='[2006 (W5 GDP by country.csv)]' />
+            <value name='[2007 (W5 GDP by country.csv)]' />
+            <value name='[2008 (W5 GDP by country.csv)]' />
+            <value name='[2009 (W5 GDP by country.csv)]' />
+            <value name='[2010 (W5 GDP by country.csv)]' />
+            <value name='[2011 (W5 GDP by country.csv)]' />
+            <value name='[2012 (W5 GDP by country.csv)]' />
+            <value name='[2013 (W5 GDP by country.csv)]' />
+            <value name='[2014 (W5 GDP by country.csv)]' />
+            <value name='[2015 (W5 GDP by country.csv)]' />
+            <value name='[2016 (W5 GDP by country.csv)]' />
+            <value name='[2017 (W5 GDP by country.csv)]' />
+            <value name='[2018 (W5 GDP by country.csv)]' />
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+            <value name='[2018]' />
+            <value name='[2019]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[W5 GDP by country.csv].[1960]' />
+              <field name='[W5 GDP by country.csv].[1961]' />
+              <field name='[W5 GDP by country.csv].[1962]' />
+              <field name='[W5 GDP by country.csv].[1963]' />
+              <field name='[W5 GDP by country.csv].[1964]' />
+              <field name='[W5 GDP by country.csv].[1965]' />
+              <field name='[W5 GDP by country.csv].[1966]' />
+              <field name='[W5 GDP by country.csv].[1967]' />
+              <field name='[W5 GDP by country.csv].[1968]' />
+              <field name='[W5 GDP by country.csv].[1969]' />
+              <field name='[W5 GDP by country.csv].[1970]' />
+              <field name='[W5 GDP by country.csv].[1971]' />
+              <field name='[W5 GDP by country.csv].[1972]' />
+              <field name='[W5 GDP by country.csv].[1973]' />
+              <field name='[W5 GDP by country.csv].[1974]' />
+              <field name='[W5 GDP by country.csv].[1975]' />
+              <field name='[W5 GDP by country.csv].[1976]' />
+              <field name='[W5 GDP by country.csv].[1977]' />
+              <field name='[W5 GDP by country.csv].[1978]' />
+              <field name='[W5 GDP by country.csv].[1979]' />
+              <field name='[W5 GDP by country.csv].[1980]' />
+              <field name='[W5 GDP by country.csv].[1981]' />
+              <field name='[W5 GDP by country.csv].[1982]' />
+              <field name='[W5 GDP by country.csv].[1983]' />
+              <field name='[W5 GDP by country.csv].[1984]' />
+              <field name='[W5 GDP by country.csv].[1985]' />
+              <field name='[W5 GDP by country.csv].[1986]' />
+              <field name='[W5 GDP by country.csv].[1987]' />
+              <field name='[W5 GDP by country.csv].[1988]' />
+              <field name='[W5 GDP by country.csv].[1989]' />
+              <field name='[W5 GDP by country.csv].[1990]' />
+              <field name='[W5 GDP by country.csv].[1991]' />
+              <field name='[W5 GDP by country.csv].[1992]' />
+              <field name='[W5 GDP by country.csv].[1993]' />
+              <field name='[W5 GDP by country.csv].[1994]' />
+              <field name='[W5 GDP by country.csv].[1995]' />
+              <field name='[W5 GDP by country.csv].[1996]' />
+              <field name='[W5 GDP by country.csv].[1997]' />
+              <field name='[W5 GDP by country.csv].[1998]' />
+              <field name='[W5 GDP by country.csv].[1999]' />
+              <field name='[W5 GDP by country.csv].[2000]' />
+              <field name='[W5 GDP by country.csv].[2001]' />
+              <field name='[W5 GDP by country.csv].[2002]' />
+              <field name='[W5 GDP by country.csv].[2003]' />
+              <field name='[W5 GDP by country.csv].[2004]' />
+              <field name='[W5 GDP by country.csv].[2005]' />
+              <field name='[W5 GDP by country.csv].[2006]' />
+              <field name='[W5 GDP by country.csv].[2007]' />
+              <field name='[W5 GDP by country.csv].[2008]' />
+              <field name='[W5 GDP by country.csv].[2009]' />
+              <field name='[W5 GDP by country.csv].[2010]' />
+              <field name='[W5 GDP by country.csv].[2011]' />
+              <field name='[W5 GDP by country.csv].[2012]' />
+              <field name='[W5 GDP by country.csv].[2013]' />
+              <field name='[W5 GDP by country.csv].[2014]' />
+              <field name='[W5 GDP by country.csv].[2015]' />
+              <field name='[W5 GDP by country.csv].[2016]' />
+              <field name='[W5 GDP by country.csv].[2017]' />
+              <field name='[W5 GDP by country.csv].[2018]' />
+              <field name='[W5 Population by country.csv].[1960]' />
+              <field name='[W5 Population by country.csv].[1961]' />
+              <field name='[W5 Population by country.csv].[1962]' />
+              <field name='[W5 Population by country.csv].[1963]' />
+              <field name='[W5 Population by country.csv].[1964]' />
+              <field name='[W5 Population by country.csv].[1965]' />
+              <field name='[W5 Population by country.csv].[1966]' />
+              <field name='[W5 Population by country.csv].[1967]' />
+              <field name='[W5 Population by country.csv].[1968]' />
+              <field name='[W5 Population by country.csv].[1969]' />
+              <field name='[W5 Population by country.csv].[1970]' />
+              <field name='[W5 Population by country.csv].[1971]' />
+              <field name='[W5 Population by country.csv].[1972]' />
+              <field name='[W5 Population by country.csv].[1973]' />
+              <field name='[W5 Population by country.csv].[1974]' />
+              <field name='[W5 Population by country.csv].[1975]' />
+              <field name='[W5 Population by country.csv].[1976]' />
+              <field name='[W5 Population by country.csv].[1977]' />
+              <field name='[W5 Population by country.csv].[1978]' />
+              <field name='[W5 Population by country.csv].[1979]' />
+              <field name='[W5 Population by country.csv].[1980]' />
+              <field name='[W5 Population by country.csv].[1981]' />
+              <field name='[W5 Population by country.csv].[1982]' />
+              <field name='[W5 Population by country.csv].[1983]' />
+              <field name='[W5 Population by country.csv].[1984]' />
+              <field name='[W5 Population by country.csv].[1985]' />
+              <field name='[W5 Population by country.csv].[1986]' />
+              <field name='[W5 Population by country.csv].[1987]' />
+              <field name='[W5 Population by country.csv].[1988]' />
+              <field name='[W5 Population by country.csv].[1989]' />
+              <field name='[W5 Population by country.csv].[1990]' />
+              <field name='[W5 Population by country.csv].[1991]' />
+              <field name='[W5 Population by country.csv].[1992]' />
+              <field name='[W5 Population by country.csv].[1993]' />
+              <field name='[W5 Population by country.csv].[1994]' />
+              <field name='[W5 Population by country.csv].[1995]' />
+              <field name='[W5 Population by country.csv].[1996]' />
+              <field name='[W5 Population by country.csv].[1997]' />
+              <field name='[W5 Population by country.csv].[1998]' />
+              <field name='[W5 Population by country.csv].[1999]' />
+              <field name='[W5 Population by country.csv].[2000]' />
+              <field name='[W5 Population by country.csv].[2001]' />
+              <field name='[W5 Population by country.csv].[2002]' />
+              <field name='[W5 Population by country.csv].[2003]' />
+              <field name='[W5 Population by country.csv].[2004]' />
+              <field name='[W5 Population by country.csv].[2005]' />
+              <field name='[W5 Population by country.csv].[2006]' />
+              <field name='[W5 Population by country.csv].[2007]' />
+              <field name='[W5 Population by country.csv].[2008]' />
+              <field name='[W5 Population by country.csv].[2009]' />
+              <field name='[W5 Population by country.csv].[2010]' />
+              <field name='[W5 Population by country.csv].[2011]' />
+              <field name='[W5 Population by country.csv].[2012]' />
+              <field name='[W5 Population by country.csv].[2013]' />
+              <field name='[W5 Population by country.csv].[2014]' />
+              <field name='[W5 Population by country.csv].[2015]' />
+              <field name='[W5 Population by country.csv].[2016]' />
+              <field name='[W5 Population by country.csv].[2017]' />
+              <field name='[W5 Population by country.csv].[2018]' />
+              <field name='[W5 Population by country.csv].[2019]' />
+            </group>
+          </groups>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[W5 Population by country.csv].[Country Code]' />
+                <expression op='[W5 Country details.csv].[Country Code]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[W5 Population by country.csv].[Country Code]' />
+                  <expression op='[W5 GDP by country.csv].[Country Code]' />
+                </expression>
+              </clause>
+              <relation connection='textscan.1wwfize11rubx917i6o1j0gs22fw' name='W5 Population by country.csv' table='[W5 Population by country#csv$]' type='table'>
+                <columns gridOrigin='A1:BL269:no:A1:BL269:1'>
+                  <column datatype='string' name='Country Name' ordinal='0' />
+                  <column datatype='string' name='Country Code' ordinal='1' />
+                  <column datatype='string' name='Indicator Name' ordinal='2' />
+                  <column datatype='string' name='Indicator Code' ordinal='3' />
+                  <column datatype='real' name='1960' ordinal='4' />
+                  <column datatype='real' name='1961' ordinal='5' />
+                  <column datatype='real' name='1962' ordinal='6' />
+                  <column datatype='real' name='1963' ordinal='7' />
+                  <column datatype='real' name='1964' ordinal='8' />
+                  <column datatype='real' name='1965' ordinal='9' />
+                  <column datatype='real' name='1966' ordinal='10' />
+                  <column datatype='real' name='1967' ordinal='11' />
+                  <column datatype='real' name='1968' ordinal='12' />
+                  <column datatype='real' name='1969' ordinal='13' />
+                  <column datatype='real' name='1970' ordinal='14' />
+                  <column datatype='real' name='1971' ordinal='15' />
+                  <column datatype='real' name='1972' ordinal='16' />
+                  <column datatype='real' name='1973' ordinal='17' />
+                  <column datatype='real' name='1974' ordinal='18' />
+                  <column datatype='real' name='1975' ordinal='19' />
+                  <column datatype='real' name='1976' ordinal='20' />
+                  <column datatype='real' name='1977' ordinal='21' />
+                  <column datatype='real' name='1978' ordinal='22' />
+                  <column datatype='real' name='1979' ordinal='23' />
+                  <column datatype='real' name='1980' ordinal='24' />
+                  <column datatype='real' name='1981' ordinal='25' />
+                  <column datatype='real' name='1982' ordinal='26' />
+                  <column datatype='real' name='1983' ordinal='27' />
+                  <column datatype='real' name='1984' ordinal='28' />
+                  <column datatype='real' name='1985' ordinal='29' />
+                  <column datatype='real' name='1986' ordinal='30' />
+                  <column datatype='real' name='1987' ordinal='31' />
+                  <column datatype='real' name='1988' ordinal='32' />
+                  <column datatype='real' name='1989' ordinal='33' />
+                  <column datatype='real' name='1990' ordinal='34' />
+                  <column datatype='real' name='1991' ordinal='35' />
+                  <column datatype='real' name='1992' ordinal='36' />
+                  <column datatype='real' name='1993' ordinal='37' />
+                  <column datatype='real' name='1994' ordinal='38' />
+                  <column datatype='real' name='1995' ordinal='39' />
+                  <column datatype='real' name='1996' ordinal='40' />
+                  <column datatype='real' name='1997' ordinal='41' />
+                  <column datatype='real' name='1998' ordinal='42' />
+                  <column datatype='real' name='1999' ordinal='43' />
+                  <column datatype='real' name='2000' ordinal='44' />
+                  <column datatype='real' name='2001' ordinal='45' />
+                  <column datatype='real' name='2002' ordinal='46' />
+                  <column datatype='real' name='2003' ordinal='47' />
+                  <column datatype='real' name='2004' ordinal='48' />
+                  <column datatype='real' name='2005' ordinal='49' />
+                  <column datatype='real' name='2006' ordinal='50' />
+                  <column datatype='real' name='2007' ordinal='51' />
+                  <column datatype='real' name='2008' ordinal='52' />
+                  <column datatype='real' name='2009' ordinal='53' />
+                  <column datatype='real' name='2010' ordinal='54' />
+                  <column datatype='real' name='2011' ordinal='55' />
+                  <column datatype='real' name='2012' ordinal='56' />
+                  <column datatype='real' name='2013' ordinal='57' />
+                  <column datatype='real' name='2014' ordinal='58' />
+                  <column datatype='real' name='2015' ordinal='59' />
+                  <column datatype='real' name='2016' ordinal='60' />
+                  <column datatype='real' name='2017' ordinal='61' />
+                  <column datatype='real' name='2018' ordinal='62' />
+                  <column datatype='real' name='2019' ordinal='63' />
+                </columns>
+              </relation>
+              <relation connection='textscan.1wwfize11rubx917i6o1j0gs22fw' name='W5 GDP by country.csv' table='[W5 GDP by country#csv$]' type='table'>
+                <columns gridOrigin='A1:BL269:no:A1:BL269:1'>
+                  <column datatype='string' name='Country Name' ordinal='0' />
+                  <column datatype='string' name='Country Code' ordinal='1' />
+                  <column datatype='string' name='Indicator Name' ordinal='2' />
+                  <column datatype='string' name='Indicator Code' ordinal='3' />
+                  <column datatype='real' name='1960' ordinal='4' />
+                  <column datatype='real' name='1961' ordinal='5' />
+                  <column datatype='real' name='1962' ordinal='6' />
+                  <column datatype='real' name='1963' ordinal='7' />
+                  <column datatype='real' name='1964' ordinal='8' />
+                  <column datatype='real' name='1965' ordinal='9' />
+                  <column datatype='real' name='1966' ordinal='10' />
+                  <column datatype='real' name='1967' ordinal='11' />
+                  <column datatype='real' name='1968' ordinal='12' />
+                  <column datatype='real' name='1969' ordinal='13' />
+                  <column datatype='real' name='1970' ordinal='14' />
+                  <column datatype='real' name='1971' ordinal='15' />
+                  <column datatype='real' name='1972' ordinal='16' />
+                  <column datatype='real' name='1973' ordinal='17' />
+                  <column datatype='real' name='1974' ordinal='18' />
+                  <column datatype='real' name='1975' ordinal='19' />
+                  <column datatype='real' name='1976' ordinal='20' />
+                  <column datatype='real' name='1977' ordinal='21' />
+                  <column datatype='real' name='1978' ordinal='22' />
+                  <column datatype='real' name='1979' ordinal='23' />
+                  <column datatype='real' name='1980' ordinal='24' />
+                  <column datatype='real' name='1981' ordinal='25' />
+                  <column datatype='real' name='1982' ordinal='26' />
+                  <column datatype='real' name='1983' ordinal='27' />
+                  <column datatype='real' name='1984' ordinal='28' />
+                  <column datatype='real' name='1985' ordinal='29' />
+                  <column datatype='real' name='1986' ordinal='30' />
+                  <column datatype='real' name='1987' ordinal='31' />
+                  <column datatype='real' name='1988' ordinal='32' />
+                  <column datatype='real' name='1989' ordinal='33' />
+                  <column datatype='real' name='1990' ordinal='34' />
+                  <column datatype='real' name='1991' ordinal='35' />
+                  <column datatype='real' name='1992' ordinal='36' />
+                  <column datatype='real' name='1993' ordinal='37' />
+                  <column datatype='real' name='1994' ordinal='38' />
+                  <column datatype='real' name='1995' ordinal='39' />
+                  <column datatype='real' name='1996' ordinal='40' />
+                  <column datatype='real' name='1997' ordinal='41' />
+                  <column datatype='real' name='1998' ordinal='42' />
+                  <column datatype='real' name='1999' ordinal='43' />
+                  <column datatype='real' name='2000' ordinal='44' />
+                  <column datatype='real' name='2001' ordinal='45' />
+                  <column datatype='real' name='2002' ordinal='46' />
+                  <column datatype='real' name='2003' ordinal='47' />
+                  <column datatype='real' name='2004' ordinal='48' />
+                  <column datatype='real' name='2005' ordinal='49' />
+                  <column datatype='real' name='2006' ordinal='50' />
+                  <column datatype='real' name='2007' ordinal='51' />
+                  <column datatype='real' name='2008' ordinal='52' />
+                  <column datatype='real' name='2009' ordinal='53' />
+                  <column datatype='real' name='2010' ordinal='54' />
+                  <column datatype='real' name='2011' ordinal='55' />
+                  <column datatype='real' name='2012' ordinal='56' />
+                  <column datatype='real' name='2013' ordinal='57' />
+                  <column datatype='real' name='2014' ordinal='58' />
+                  <column datatype='real' name='2015' ordinal='59' />
+                  <column datatype='real' name='2016' ordinal='60' />
+                  <column datatype='real' name='2017' ordinal='61' />
+                  <column datatype='real' name='2018' ordinal='62' />
+                  <column datatype='real' name='2019' ordinal='63' />
+                </columns>
+              </relation>
+            </relation>
+            <relation connection='textscan.1wwfize11rubx917i6o1j0gs22fw' name='W5 Country details.csv' table='[W5 Country details#csv$]' type='table'>
+              <columns gridOrigin='A1:E264:no:A1:E264:0'>
+                <column datatype='string' name='Country Code' ordinal='0' />
+                <column datatype='string' name='Region' ordinal='1' />
+                <column datatype='string' name='IncomeGroup' ordinal='2' />
+                <column datatype='string' name='SpecialNotes' ordinal='3' />
+                <column datatype='string' name='TableName' ordinal='4' />
+              </columns>
+            </relation>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[2019 (W5 GDP by country.csv)]' value='[W5 GDP by country.csv].[2019]' />
+          <map key='[Country Code (W5 Country details.csv)]' value='[W5 Country details.csv].[Country Code]' />
+          <map key='[Country Code (W5 GDP by country.csv)]' value='[W5 GDP by country.csv].[Country Code]' />
+          <map key='[Country Code]' value='[W5 Population by country.csv].[Country Code]' />
+          <map key='[Country Name (W5 GDP by country.csv)]' value='[W5 GDP by country.csv].[Country Name]' />
+          <map key='[Country Name]' value='[W5 Population by country.csv].[Country Name]' />
+          <map key='[IncomeGroup]' value='[W5 Country details.csv].[IncomeGroup]' />
+          <map key='[Indicator Code (W5 GDP by country.csv)]' value='[W5 GDP by country.csv].[Indicator Code]' />
+          <map key='[Indicator Code]' value='[W5 Population by country.csv].[Indicator Code]' />
+          <map key='[Indicator Name (W5 GDP by country.csv)]' value='[W5 GDP by country.csv].[Indicator Name]' />
+          <map key='[Indicator Name]' value='[W5 Population by country.csv].[Indicator Name]' />
+          <map key='[Pivot Field Names]' value='[Pivot].[Pivot Field Names]' />
+          <map key='[Pivot Field Values]' value='[Pivot].[Pivot Field Values]' />
+          <map key='[Region]' value='[W5 Country details.csv].[Region]' />
+          <map key='[SpecialNotes]' value='[W5 Country details.csv].[SpecialNotes]' />
+          <map key='[TableName]' value='[W5 Country details.csv].[TableName]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[W5 Population by country.csv]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[W5 Population by country.csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[W5 Population by country.csv]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[W5 Population by country.csv]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[W5 Population by country.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BL269:no:A1:BL269:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>15409</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name (W5 GDP by country.csv)]</local-name>
+            <parent-name>[W5 GDP by country.csv]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code (W5 GDP by country.csv)]</local-name>
+            <parent-name>[W5 GDP by country.csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name (W5 GDP by country.csv)]</local-name>
+            <parent-name>[W5 GDP by country.csv]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code (W5 GDP by country.csv)]</local-name>
+            <parent-name>[W5 GDP by country.csv]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2019 (W5 GDP by country.csv)]</local-name>
+            <parent-name>[W5 GDP by country.csv]</parent-name>
+            <remote-alias>2019</remote-alias>
+            <ordinal>8</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[W5 GDP by country.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BL270:no:A1:BL270:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>12060</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code (W5 Country details.csv)]</local-name>
+            <parent-name>[W5 Country details.csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[W5 Country details.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IncomeGroup</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IncomeGroup]</local-name>
+            <parent-name>[W5 Country details.csv]</parent-name>
+            <remote-alias>IncomeGroup</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SpecialNotes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SpecialNotes]</local-name>
+            <parent-name>[W5 Country details.csv]</parent-name>
+            <remote-alias>SpecialNotes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TableName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TableName]</local-name>
+            <parent-name>[W5 Country details.csv]</parent-name>
+            <remote-alias>TableName</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[W5 Country details.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E264:no:A1:E264:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' hidden='true' name='[2019 (W5 GDP by country.csv)]' role='measure' type='quantitative' />
+      <column caption='GDP per capita Avg' datatype='real' name='[Calculation_1086774898836615169]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG({INCLUDE [Calculation_1185009665363443712]: [Calculation_1185009665367187459]})' />
+      </column>
+      <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+      </column>
+      <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+      </column>
+      <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+      </column>
+      <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+      </column>
+      <column aggregation='None' datatype='string' hidden='true' name='[Country Code (W5 Country details.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' datatype='string' hidden='true' name='[Country Code (W5 GDP by country.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' datatype='string' hidden='true' name='[Country Name (W5 GDP by country.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='GDP per capita (copy)' datatype='real' name='[GDP per capita (copy)_1086774898835091456]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_1185009665363759105]) / ([Calculation_1185009665364103170])' />
+      </column>
+      <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='string' hidden='true' name='[Indicator Code (W5 GDP by country.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Indicator Code]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='string' hidden='true' name='[Indicator Name (W5 GDP by country.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Indicator Name]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column caption='Special Notes' datatype='string' hidden='true' name='[SpecialNotes]' role='dimension' type='nominal' />
+      <column caption='Table Name' datatype='string' hidden='true' name='[TableName]' role='dimension' type='nominal' />
+      <group caption='Outliers' name='[Set 1]' name-style='unqualified' user:ui-builder='lasso-group'>
+        <groupfilter function='except'>
+          <groupfilter function='crossjoin'>
+            <groupfilter function='level-members' level='[Country Name]' />
+            <groupfilter function='level-members' level='[Calculation_1185009665363443712]' />
+          </groupfilter>
+          <groupfilter function='reorder-dimensionality'>
+            <groupfilter function='crossjoin'>
+              <groupfilter function='member' level='[Calculation_1185009665363443712]' member='2018' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[Country Name]' member='&quot;China&quot;' />
+                <groupfilter function='member' level='[Country Name]' member='&quot;India&quot;' />
+                <groupfilter function='member' level='[Country Name]' member='&quot;United States&quot;' />
+              </groupfilter>
+            </groupfilter>
+            <order>
+              <hierarchy name='[Country Name]' />
+              <hierarchy name='[Calculation_1185009665363443712]' />
+            </order>
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.318979' group-percentage='0.196172' measure-ordering='alphabetic' measure-percentage='0.484848' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+      <datasources>
+        <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+        <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+        <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]'>
+        <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[none:IncomeGroup:nk]' />
+          <groupfilter function='member' level='[none:IncomeGroup:nk]' member='%null%' />
+        </groupfilter>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Population/GDP Correlation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Set 1]' derivation='InOut' name='[io:Set 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Sum' name='[sum:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Sum' name='[sum:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665367187459]' derivation='User' name='[usr:Calculation_1185009665367187459:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[io:Set 1:nk]'>
+            <groupfilter function='level-members' level='[io:Set 1:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]'>
+            <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2018' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[io:Set 1:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]' field-type='quantitative' max='3188884112.4089723' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]' field-type='quantitative' max='56377846028504.727' min='0.0' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]' />
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'> on &lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP: </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Population:</run>
+                <run fontcolor='#000000'>Æ </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP per capita: </run>
+                <run bold='true' fontcolor='#e15759' fontsize='12'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='size' value='0.53773480653762817' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</cols>
+        <page-trail-options line-color='#606b76' line-color-auto='false' lines='true' mark-color='#606b76' mark-color-auto='false' mark-type='all' start='47' />
+      </table>
+      <simple-id uuid='{DD60EB8D-39DE-4DC5-A746-1077CB3F3898}' />
+    </worksheet>
+    <worksheet name='Population/GDP Movement'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Sum' name='[sum:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Sum' name='[sum:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665367187459]' derivation='User' name='[usr:Calculation_1185009665367187459:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]' />
+              <text column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]&gt;</run>
+                <run bold='true'> on &lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP: </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Population:</run>
+                <run fontcolor='#000000'>Æ </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP per capita: </run>
+                <run bold='true' fontcolor='#e15759' fontsize='12'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='size' value='0.53773480653762817' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</cols>
+        <pages>
+          <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+        </pages>
+        <page-trail-options line-color='#606b76' line-color-auto='false' lines='true' mark-color='#606b76' mark-color-auto='false' mark-type='all' start='47' />
+      </table>
+      <simple-id uuid='{E13E398B-C9B0-4EF1-8F40-300BDCB31138}' />
+    </worksheet>
+    <worksheet name='Population/GDP Movement Outliers'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Sum' name='[sum:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Sum' name='[sum:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665367187459]' derivation='User' name='[usr:Calculation_1185009665367187459:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;United States&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]' />
+              <text column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]&gt;</run>
+                <run bold='true'> on &lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP: </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Population:</run>
+                <run fontcolor='#000000'>Æ </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP per capita: </run>
+                <run bold='true' fontcolor='#e15759' fontsize='12'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='size' value='0.53773480653762817' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</cols>
+        <pages>
+          <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+        </pages>
+        <page-trail-options enabled='true' line-color='#59a14f' line-color-auto='false' lines='true' mark-color='#59a14f' mark-color-auto='false' mark-type='all' start='47' />
+      </table>
+      <simple-id uuid='{361F0B65-8AD2-44F0-97ED-2CAC2F478432}' />
+    </worksheet>
+    <worksheet name='Population/GDP by Income Group'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Sum' name='[sum:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Sum' name='[sum:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665367187459]' derivation='User' name='[usr:Calculation_1185009665367187459:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[Set 1]' />
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]'>
+            <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2018' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[Set 1]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]' />
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]' />
+              <text column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]&gt;</run>
+                <run bold='true'> on &lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP: </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Population:</run>
+                <run fontcolor='#000000'>Æ </run>
+                <run bold='true' fontcolor='#000000'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>GDP per capita: </run>
+                <run bold='true' fontcolor='#e15759' fontsize='12'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1185009665367187459:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='size' value='0.53773480653762817' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</cols>
+        <page-trail-options line-color='#606b76' line-color-auto='false' lines='true' mark-color='#606b76' mark-color-auto='false' mark-type='all' start='47' />
+      </table>
+      <simple-id uuid='{EFFDE5E9-A52A-4855-A9DD-4AC0B2912C86}' />
+    </worksheet>
+    <worksheet name='Ranking GDP'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='GDP per capita Avg' datatype='real' name='[Calculation_1086774898836615169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG({INCLUDE [Calculation_1185009665363443712]: [Calculation_1185009665367187459]})' />
+            </column>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Avg' name='[avg:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Sum' name='[sum:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1086774898836615169]' derivation='User' name='[usr:Calculation_1086774898836615169:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2000' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2001' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2002' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2003' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2004' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2005' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2006' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2007' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2008' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2009' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2010' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2011' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2012' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2013' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2014' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2015' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2016' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2017' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2018' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]' direction='DESC' using='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665363759105:qk]' />
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665363759105:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665363759105:qk]' value='n#,##0,,,.0B;-#,##0,,,.0B' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]' />
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665363759105:qk]</cols>
+      </table>
+      <simple-id uuid='{C04C7C30-9FB6-4B81-AA20-D3AC6E72C94E}' />
+    </worksheet>
+    <worksheet name='Ranking GDP per capita'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='GDP per capita Avg' datatype='real' name='[Calculation_1086774898836615169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG({INCLUDE [Calculation_1185009665363443712]: [Calculation_1185009665367187459]})' />
+            </column>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Sum' name='[sum:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Sum' name='[sum:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1086774898836615169]' derivation='User' name='[usr:Calculation_1086774898836615169:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2000' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2001' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2002' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2003' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2004' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2005' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2006' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2007' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2008' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2009' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2010' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2011' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2012' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2013' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2014' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2015' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2016' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2017' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2018' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]' direction='DESC' using='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]' />
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]' />
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]</cols>
+      </table>
+      <simple-id uuid='{E6343E13-C519-45A1-B742-9352D85861E9}' />
+    </worksheet>
+    <worksheet name='Ranking Population'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='W5 Population by country+' name='federated.0xuq55607r5cse1bl0oet0l9ihjj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xuq55607r5cse1bl0oet0l9ihjj'>
+            <column caption='GDP per capita Avg' datatype='real' name='[Calculation_1086774898836615169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG({INCLUDE [Calculation_1185009665363443712]: [Calculation_1185009665367187459]})' />
+            </column>
+            <column caption='Year ' datatype='integer' name='[Calculation_1185009665363443712]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT(LEFT([Pivot Field Names],4))' />
+            </column>
+            <column caption='GDP' datatype='real' name='[Calculation_1185009665363759105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='Population' datatype='real' name='[Calculation_1185009665364103170]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF NOT CONTAINS([Pivot Field Names],&quot;.csv&quot;) THEN [Pivot Field Values] ELSE 0 END' />
+            </column>
+            <column caption='GDP per capita' datatype='real' name='[Calculation_1185009665367187459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1185009665363759105]) / SUM([Calculation_1185009665364103170])' />
+            </column>
+            <column aggregation='None' caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1185009665364103170]' derivation='Avg' name='[avg:Calculation_1185009665364103170:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1185009665363443712]' derivation='None' name='[none:Calculation_1185009665363443712:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IncomeGroup]' derivation='None' name='[none:IncomeGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1185009665363759105]' derivation='Sum' name='[sum:Calculation_1185009665363759105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1086774898836615169]' derivation='User' name='[usr:Calculation_1086774898836615169:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2000' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2001' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2002' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2003' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2004' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2005' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2006' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2007' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2008' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2009' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2010' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2011' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2012' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2013' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2014' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2015' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2016' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2017' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2018' />
+              <groupfilter function='member' level='[none:Calculation_1185009665363443712:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]' direction='DESC' using='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665364103170:qk]' />
+          <slices>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</column>
+            <column>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665364103170:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665364103170:qk]' value='n#,##0,,.0M;-#,##0,,.0M' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]' />
+              <tooltip column='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</rows>
+        <cols>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[avg:Calculation_1185009665364103170:qk]</cols>
+      </table>
+      <simple-id uuid='{7172FD44-C7ED-4CF8-8E96-A11E28C968B9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Rankings'>
+      <style />
+      <size maxheight='672' maxwidth='784' minheight='672' minwidth='784' preset-index='17' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97620' id='1' layout-strategy-id='distribute-evenly' param='vert' type='layout-flow' w='97960' x='1020' y='1190'>
+            <zone h='97620' id='5' name='Ranking GDP per capita' w='97960' x='1020' y='1190'>
+              <layout-cache type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{B88048E6-9968-445C-8A34-39D6158D28B1}' />
+    </dashboard>
+    <dashboard name='World GDP &amp; Population Analysis' type='storyboard'>
+      <style />
+      <size maxheight='800' maxwidth='800' minheight='800' minwidth='800' preset-index='4' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='1' param='vert' removable='false' type='layout-flow' w='98000' x='1000' y='1000'>
+            <zone h='4125' id='3' type='title' w='98000' x='1000' y='1000' />
+            <zone h='9875' id='4' paired-zone-id='5' removable='false' type='flipboard-nav' w='98000' x='1000' y='5125' />
+            <zone h='84000' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98000' x='1000' y='15000'>
+              <flipboard active-id='1' nav-type='number' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Population/GDP Movement' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='Population/GDP Movement'>
+                        <current-page>
+                          <multibucket>
+                            <bucket>1960</bucket>
+                          </multibucket>
+                        </current-page>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point captured-sheet='Population/GDP Movement' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='Population/GDP Movement'>
+                        <annotations>
+                          <annotation class='area' delta-type='added' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+                            <formatted-text>
+                              <run>As of 2018, United States is an outlier in GDP, China has a high GDP but also a high population, and India is an outlier in population only.</run>
+                            </formatted-text>
+                            <top-left>
+                              <visual-coordinate class='axis'>
+                                <x-coord axis-value='5048364320409.5176'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</axis>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='1085469997.182348'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference>
+                                  <fields>
+                                    <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+                                  </fields>
+                                  <multibucket>
+                                    <bucket>2018</bucket>
+                                  </multibucket>
+                                </page-reference>
+                              </visual-coordinate>
+                            </top-left>
+                            <bottom-right>
+                              <visual-coordinate class='axis'>
+                                <x-coord axis-value='16441853728932.676'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</axis>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='794005579.81729329'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference>
+                                  <fields>
+                                    <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+                                  </fields>
+                                  <multibucket>
+                                    <bucket>2018</bucket>
+                                  </multibucket>
+                                </page-reference>
+                              </visual-coordinate>
+                            </bottom-right>
+                            <text x='0.5' y='0.5' />
+                          </annotation>
+                        </annotations>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point captured-sheet='Population/GDP Correlation' id='3' />
+                  <story-point captured-sheet='Population/GDP by Income Group' id='4' />
+                  <story-point captured-sheet='Rankings' id='5'>
+                    <capturedDeltas>
+                      <worksheet name='Ranking GDP per capita'>
+                        <annotations>
+                          <annotation class='point' delta-type='added' id='0' mark-position='0.856574' pullback='33.6006' text-width='315'>
+                            <formatted-text>
+                              <run bold='true'>Monaco and Liechtenstein are peculiar cases since these are the top countries on GDP per capita, but you can attribute that mostly due to their populations of less than 1 million.</run>
+                            </formatted-text>
+                            <point>
+                              <visual-coordinate class='mark'>
+                                <tuple-reference>
+                                  <tuple-descriptor>
+                                    <pane-descriptor>
+                                      <x-fields>
+                                        <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]</field>
+                                      </x-fields>
+                                      <y-fields>
+                                        <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+                                      </y-fields>
+                                    </pane-descriptor>
+                                    <columns>
+                                      <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+                                      <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</field>
+                                      <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</field>
+                                      <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[usr:Calculation_1086774898836615169:qk]</field>
+                                    </columns>
+                                  </tuple-descriptor>
+                                  <tuple>
+                                    <value>&quot;Monaco&quot;</value>
+                                    <value>99633965321.255798</value>
+                                    <value>671913.0</value>
+                                    <value>146589.53654413376</value>
+                                  </tuple>
+                                </tuple-reference>
+                              </visual-coordinate>
+                            </point>
+                            <body x='-9' y='128' />
+                          </annotation>
+                        </annotations>
+                      </worksheet>
+                      <worksheet name='Ranking Population'>
+                        <selection-collection />
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point captured-sheet='Population/GDP Movement Outliers' id='6'>
+                    <capturedDeltas>
+                      <worksheet name='Population/GDP Movement Outliers'>
+                        <annotations>
+                          <annotation class='point' delta-type='added' id='0' mark-position='1' pullback='0' text-width='340'>
+                            <formatted-text>
+                              <run bold='true'>Until 1993, China was not yet having a noticeable increase in GDP, but its population was increasing.</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>GDP: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>Population: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                            </formatted-text>
+                            <point>
+                              <visual-coordinate class='axis'>
+                                <x-coord axis-value='312836138374.43408'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</axis>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='1173632601.695092'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference>
+                                  <fields>
+                                    <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+                                  </fields>
+                                  <multibucket>
+                                    <bucket>2018</bucket>
+                                  </multibucket>
+                                </page-reference>
+                              </visual-coordinate>
+                            </point>
+                            <body x='169' y='176' />
+                          </annotation>
+                          <annotation class='point' delta-type='added' id='1' mark-position='1' pullback='0' text-width='289'>
+                            <formatted-text>
+                              <run fontcolor='#000000' fontname='Calibri,sans-serif' fontsize='11'>On 2004, China starts to move the trend and increases GDP drastically.</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>GDP: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>Population: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                            </formatted-text>
+                            <point>
+                              <visual-coordinate class='axis'>
+                                <x-coord axis-value='1729069241168.7161'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</axis>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='1303728668.3924253'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference>
+                                  <fields>
+                                    <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+                                  </fields>
+                                  <multibucket>
+                                    <bucket>2018</bucket>
+                                  </multibucket>
+                                </page-reference>
+                              </visual-coordinate>
+                            </point>
+                            <body x='156' y='120' />
+                          </annotation>
+                          <annotation class='point' delta-type='added' id='2' mark-position='1' pullback='0' text-width='316'>
+                            <formatted-text>
+                              <run bold='true'>2009, the only year USA&apos;s GDP went down: the housing crisis and recession.</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>GDP: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>Population: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                            </formatted-text>
+                            <point>
+                              <visual-coordinate class='axis'>
+                                <x-coord axis-value='14475167166317.254'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</axis>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='323856166.03378713'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference>
+                                  <fields>
+                                    <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+                                  </fields>
+                                  <multibucket>
+                                    <bucket>2018</bucket>
+                                  </multibucket>
+                                </page-reference>
+                              </visual-coordinate>
+                            </point>
+                            <body x='9' y='72' />
+                          </annotation>
+                          <annotation class='point' delta-type='added' id='3' mark-position='1' pullback='0' text-width='257'>
+                            <formatted-text>
+                              <run bold='true'>2016: structural reforms slowered China&apos;s GDP growth.</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>GDP: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]&gt;</run>
+                              <run>Æ&#10;</run>
+                              <run fontcolor='#787878'>Population: </run>
+                              <run bold='true'>&lt;[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]&gt;</run>
+                            </formatted-text>
+                            <point>
+                              <visual-coordinate class='axis'>
+                                <x-coord axis-value='11084790950537.002'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665363759105:qk]</axis>
+                                  </node-reference>
+                                </x-coord>
+                                <y-coord axis-value='1389536712.3842835'>
+                                  <node-reference>
+                                    <axis>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[sum:Calculation_1185009665364103170:qk]</axis>
+                                  </node-reference>
+                                </y-coord>
+                                <page-reference>
+                                  <fields>
+                                    <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+                                  </fields>
+                                  <multibucket>
+                                    <bucket>2018</bucket>
+                                  </multibucket>
+                                </page-reference>
+                              </visual-coordinate>
+                            </point>
+                            <body x='110' y='63' />
+                          </annotation>
+                        </annotations>
+                        <current-page>
+                          <multibucket>
+                            <bucket>2018</bucket>
+                          </multibucket>
+                        </current-page>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='17875' id='6' story-point-id='1' type='text' w='64750' x='35125' y='32500'>
+          <formatted-text>
+            <run fontalignment='2' fontcolor='#000000' fontsize='11'>In this story you will see:</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#000000' fontsize='11'>1. Which are the outliers in population &amp; GDP sizes?</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#000000' fontsize='11'>2. Is there a correlation between population and GDP?</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#000000' fontsize='11'>3. Which are the top countries on population, GDP, and GDP per capita?</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#000000' fontsize='11'>4. What has been the growth trend for China and USA?</run>
+            <run fontalignment='2'>Æ&#10;</run>
+            <run fontalignment='2' fontcolor='#000000' fontsize='11'>Press the ► button to play!</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='15500' hidden='true' id='7' story-point-id='3' type='text' w='37375' x='26000' y='58000'>
+          <formatted-text>
+            <run fontcolor='#000000' fontsize='11'>There was found a low correlation between population and GDP in general. Removing the three outliers (uncheck &quot;out&quot;) made no effect on it.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='20250' hidden='true' id='8' story-point-id='4' type='text' w='33250' x='43750' y='32125'>
+          <formatted-text>
+            <run fontsize='11'>The Income Groups are also represented in this scatter plot. Each line represents the general trendline per income group. We can see, based on the slope of the trendline, that the high income countries see the biggest increase in GDP per capita with the growth of population.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{C33BC6DF-978B-479A-8A97-2534B39D804D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Ranking Population'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2018</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{0D1A4EF9-388A-4E23-A08F-67B97779CDE8}' />
+    </window>
+    <window class='worksheet' name='Ranking GDP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2018</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{6BCA668A-A177-4865-B9F1-2E18C58B9A58}' />
+    </window>
+    <window class='dashboard' maximized='true' name='World GDP &amp; Population Analysis'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{4525660B-A2B1-44FC-8BC7-5F656A469D69}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Population/GDP Correlation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[io:Set 1:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AD395269-F264-4086-B3A3-578ECA2F122D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Population/GDP Movement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2018</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9AD6AA1D-47CB-4B4D-8591-B8EAF09131E0}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Population/GDP Movement Outliers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2017</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2A96D3F2-625E-4BE9-94D1-432BF3839B1A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Population/GDP by Income Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:IncomeGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C0ACBDEB-2CFE-405B-ACF2-DE4D43186493}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ranking GDP per capita'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2017</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Calculation_1185009665363443712:ok]</field>
+            <field>[federated.0xuq55607r5cse1bl0oet0l9ihjj].[none:Country Name:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{57E40066-064D-4A2A-9786-C39DEA0EA860}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Rankings'>
+      <viewpoints>
+        <viewpoint name='Ranking GDP per capita'>
+          <current-page>
+            <multibucket>
+              <bucket>2017</bucket>
+            </multibucket>
+          </current-page>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BC586B5F-E31B-4A33-981E-97D33C83BBCF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Ranking GDP' width='192'>
+      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
+      B19F8M7o2JmdAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Ranking Population' width='192'>
+      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
+      pwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='World GDP &amp; Population Analysis' width='192'>
+      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
+      Yy5sT7cAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
